@@ -1,2 +1,3 @@
-DELETE http://localhost:8082/restaurants/60af5c1803decc436c5bbd90 HTTP/1.1
+DELETE http://localhost:8082/restaurants/5fae6253754302edb771f778 HTTP/1.1
 content-type: application/json
+authorization: Bearer <INSERT_AUTHENTICATION_TOKEN>

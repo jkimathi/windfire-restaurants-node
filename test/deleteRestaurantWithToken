@@ -1,0 +1,2 @@
+DELETE http://localhost:8082/restaurants/60af5c1803decc436c5bbd90 HTTP/1.1
+content-type: application/json

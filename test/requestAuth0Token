@@ -1,0 +1,9 @@
+POST https://robipozzi.eu.auth0.com/oauth/token HTTP/1.1
+content-type: application/json
+
+{
+    "client_id":"<INSERT_AUTH0_CLIENT_ID>",
+    "client_secret":"<INSERT_AUTH0_CLIENT_SECRET>",
+    "audience":"windfire-restaurants",
+    "grant_type":"client_credentials"
+}

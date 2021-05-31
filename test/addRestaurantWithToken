@@ -1,0 +1,10 @@
+POST http://localhost:8082/restaurants HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Hostaria Vecchio Portico",
+    "city": "Arona",
+    "street": "Piazza del Popolo 12",
+    "zipcode": "21013",
+    "cuisine": "Italian"
+}

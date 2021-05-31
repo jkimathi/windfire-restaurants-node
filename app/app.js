@@ -41,7 +41,7 @@ const checkJwt = jwt({
 });
 // Routers setup
 require("./routers/health")(app, logger);
-require("./routers/restaurant")(app, logger);
+require("./routers/restaurant")(app, checkJwt, logger);
 // Run server
 app.listen(PORT, function() {
 	logger.info("Current working directory = " + process.cwd());

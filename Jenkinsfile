@@ -9,7 +9,7 @@ pipeline {
         DEV_PROJECT = "windfire"
         STAGE_PROJECT = "windfire-stage"
         PROD_PROJECT = "windfire-prod"
-        APP_GIT_URL = "https://github.com/robipozzi/windfire-restaurants-node"
+        APP_GIT_URL = "https://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@github.com/jkimathi/windfire-restaurants-node"
     }
     
     agent {

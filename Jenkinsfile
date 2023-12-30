@@ -6,9 +6,9 @@ pipeline {
 
     environment {
         APP_NAME = "windfire-restaurants-backend"
-        DEV_PROJECT = "windfire"
-        STAGE_PROJECT = "windfire-stage"
-        PROD_PROJECT = "windfire-prod"
+        DEV_PROJECT = "morning-dew"
+        STAGE_PROJECT = "morning-dew-stage"
+        PROD_PROJECT = "morning-dew-prod"
         APP_GIT_URL = "https://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@github.com/jkimathi/windfire-restaurants-node"
     }
     

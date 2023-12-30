@@ -39,7 +39,7 @@ pipeline {
                                     service.expose()
                                 }
                             } 
-                            // If BuildConfig does not exist, deploy a new application using an OpenShift Template
+                            // If BuildConfig does not exist, deploy a new application using an OpenShift Templates
                             else{
                                 echo "BuildConfig " + APP_NAME + " does not exist, creating app ..."
                                 openshift.newApp('deployment/openshift/windfire-restaurants-backend-template.yaml')

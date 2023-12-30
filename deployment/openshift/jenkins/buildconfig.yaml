@@ -6,7 +6,7 @@ spec:
   source:
     #contextDir: deployment/openshift
     git:
-      uri: "https://github.com/robipozzi/windfire-restaurants-node"
+      uri: "https://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@github.com/jkimathi/windfire-restaurants-node"
       ref: "master"
   strategy:
     jenkinsPipelineStrategy:
